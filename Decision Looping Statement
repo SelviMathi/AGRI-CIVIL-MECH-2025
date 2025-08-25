@@ -1,0 +1,123 @@
+
+
+import java.util.Scanner;
+public class cond2 {
+   public static void main(String[] args) {
+        Scanner selvi=new Scanner(System.in);
+        int year=selvi.nextInt();
+        if((year%100==0 && year%400==0) || (year%100!=0 && year%4==0))
+            System.out.println("Leap year");
+        else
+            System.out.println("Non Leap Year");
+    } 
+}
+
+import java.util.Scanner;
+public class cond2 {
+   public static void main(String[] args) {
+        Scanner selvi=new Scanner(System.in);
+        int age =selvi.nextInt();
+        if (age>0&& age<=10)
+        System.out.println("child");
+        else if(age>10&&age<=20)
+            System.out.println("teen age");
+        else if(age>20&&age<=40)
+            System.out.println("adult");
+        else 
+            System.out.println("thathapatti");
+   }
+}
+
+
+import java.util.Scanner;
+public class cond2 {
+   public static void main(String[] args) {
+        Scanner selvi=new Scanner(System.in);
+        int s1 =selvi.nextInt();
+        int s2=selvi.nextInt();
+        int s3=selvi.nextInt();
+        if(s1==s2 && s2==s3 && s3==s1)
+        System.out.println("Equilateral Triangle");
+        else if(s1==s2 || s2==s3 || s3==s1)
+        System.out.println("Isoceles Triangle");
+        else 
+        System.out.println("Scalene Triangle");
+   }
+}
+
+
+1-->Withdraw
+2-->Deposit
+3-->Balance Check
+4-->Thank you poituvanga press between 1-3
+
+
+import java.util.Scanner;
+public class cond2 {
+   public static void main(String[] args) {
+        Scanner selvi=new Scanner(System.in);
+        int choice =selvi.nextInt();
+        switch(choice){
+            case 1:
+            System.out.println("Withdraw");
+            break;
+            case 2:
+            System.out.println("Deposit");
+            break;
+            case 3:
+            System.out.println("Balance Check");
+            break;
+            case 4:
+            System.out.println("press between 1-4");
+            break;
+            default:
+            System.out.println("Thank you Poituvanga");
+        }
+   }
+}
+
+FOR
+ for(int i=1;i<=5;i++)
+        System.out.println("VSB");
+
+WHILE
+int i=1;
+       while(i<=5){
+        System.out.println("VSB");
+        i++;
+    }
+   
+DO WHILE
+
+int i=1;
+       do{
+        System.out.println("VSB");
+        i++;
+    } while(i<=0);
+
+
+
+1-N
+
+for(int i=1;i<=n;i++)
+        System.out.print(i+" ");
+
+N-1
+
+for(int i=n;i>=1;i--)
+        System.out.print(i+" ");
+
+ASCII VALUES
+
+char ch='A';
+        System.out.print((int)ch);
+   
+A-Z
+ for(char i='A';i<='Z';i++)
+        System.out.print(i+" ");
+   
+
+Z-A
+for(char i='Z';i>='A';i--)
+        System.out.print(i+" ");
+
