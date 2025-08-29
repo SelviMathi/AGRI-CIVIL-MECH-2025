@@ -1,0 +1,61 @@
+public class Main {
+    
+    public static void main(String[] args) {
+        byte num=(byte)129;
+        System.out.println(num);
+    }
+    
+}
+
+
+import java.util.*;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner selvi=new Scanner(System.in);
+        byte num=selvi.nextByte();//nextInt()//nextShort()//nextLong()
+        System.out.println("Value "+num);
+    }
+    
+}
+******************************************************************
+Format Specifier
+
+public class Main {
+    
+    public static void main(String[] args) {
+        float num=12.345123456f;
+        System.out.printf("%.2f",num);
+    }
+    
+}
+
+ASCII Values
+
+A-Z--->65-90
+a-z---->97-122
+0-9--->48-57
+space--->32
+
+
+
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+       Scanner selvi=new Scanner(System.in);
+        char ch=selvi.next().charAt(0);
+        
+        System.out.print((int)ch);
+    }    
+}
+
+
+****************************************************************\
+
+Operators
+
+int a=13%3*2+1;
+
+
+
