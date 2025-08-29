@@ -1,21 +1,56 @@
+
+
+
 Decision Statements
 
 if*******************
-
+if(n>0)
+SOP("Pos");
 
 
 if else******************
+if(n>0)
+SOP("Pos");
+else
+SOP("Neg");
 
 
-
-Ladde if else*************************
+Ladder if else*************************
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+       Scanner selvi=new Scanner(System.in);
+        int num=selvi.nextInt();
+        if(num>0)
+        System.out.print(num +" is Positive");
+        else if(num<0)
+        System.out.println(num +" is Negative");
+        else 
+        System.out.println(num +" is Neither Positive nor Negative");
+    }    
+}
 
 
 
 Nested if else********************
 
-
-
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+       Scanner selvi=new Scanner(System.in);
+        int num=selvi.nextInt();
+        if(num>0){
+            if(num%2==0)
+                System.out.print(num +" is Positive even");
+            else 
+            System.out.println(num+" is Positive Odd");
+        }
+        else 
+        System.out.println(num +" is Negative");
+    }    
+}
 import java.util.Scanner;
 public class cond2 {
    public static void main(String[] args) {
